@@ -58,7 +58,7 @@ while num <= tot:
         print("FizzBuzz")
     else:
         print(num)
+    num = num + 1
 
 
-num = num + 1
 
