@@ -50,11 +50,11 @@ fiz = int(input("For multiples of what number shall we print 'Fizz'? "))
 buz = int(input("For multiples of what number shall we print 'Buzz'? "))
 
 while num <= tot:
-    if num%fiz = 0 and num%buz != 0:
+    if num%fiz == 0 and num%buz != 0:
         print("Fizz")
-    elif num%buz = 0 and num%fiz != 0:
+    elif num%buz == 0 and num%fiz != 0:
         print("Buzz")
-    elif num%fiz = 0 and num%buz = 0:
+    elif num%fiz == 0 and num%buz == 0:
         print("FizzBuzz")
     else print(num)
 
