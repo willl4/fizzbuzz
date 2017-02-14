@@ -56,7 +56,8 @@ while num <= tot:
         print("Buzz")
     elif num%fiz == 0 and num%buz == 0:
         print("FizzBuzz")
-    else print(num)
+    else:
+        print(num)
 
 
 num = num + 1
